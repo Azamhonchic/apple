@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+body{
+    width: 84%;
+    margin: 20px auto;
+    display: flex;
+}
+.right{
+    width: 25%;
+}
+.left{
+    position: sticky;
+    top: -1px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.iphone{
+    width: 90%;
+    height: 700px;
+}
+.new{
+    color: rgb(255, 166, 0);
+    font-size: 20px;
+    line-height: 1.47059;
+    font-weight: 400;
+}
+h1{
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+}
+.price{
+    font-size: 20px;
+    font-weight: 450;
+    opacity: .8;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.first_href{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(70, 160, 245);
+    margin-bottom: 40px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+}
+.choosing{
+    font-weight: 600;
+    margin-bottom: 11px;
+}
+.second_href{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(70, 160, 245);
+    margin-bottom: 30px;
+}
+.box{
+    width: 100%;
+    margin-bottom: 17px;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid rgba(182, 182, 182, 0.973);
+    padding: 15px;
+    cursor: pointer;
+}
+.box1{
+    width: 100%;
+    margin-bottom: 17px;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid rgba(182, 182, 182, 0.973);
+    padding: 15px;
+    cursor: pointer;
+}
+h3{
+    font-size: 18px;
+    opacity: .8;
+}
+code {
+    transform: translate(-13px, 6px);
+    opacity: .7;
+}
+.coder {
+    transform: translate(-33px, 7px);
+}
+.box:hover{
+    border: 1px solid rgba(97, 97, 97, 0.973);
+}
+.box_left{
+    display: flex;
+    flex-direction: column;
+}
+.price_button{
+    font-size: 17px;
+    opacity: .7;
+    transform: translateX(30px);
+}
+.price_button2{
+    font-size: 17px;
+    opacity: .7;
+    transform: translateX(20px);
+}
+.per_month{
+    font-size: 17px;
+    opacity: .7;
+}
+.box_right{
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(223, 223, 223, 0.973);
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.finish{
+    margin-bottom: 20px;
+}
+.box_color{
+    width: 43%;
+    margin: 10px;
+    border: 1px solid rgba(182, 182, 182, 0.973);
+    height: 100px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.box_color1{
+    width: 43%;
+    margin: 10px;
+    border: 1px solid rgba(182, 182, 182, 0.973);
+    height: 100px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.box_color2{
+    width: 43%;
+    margin: 10px;
+    border: 1px solid rgba(182, 182, 182, 0.973);
+    height: 100px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.box_color3{
+    width: 43%;
+    margin: 10px;
+    border: 1px solid rgba(182, 182, 182, 0.973);
+    height: 100px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.box_color4{
+    width: 43%;
+    margin: 10px;
+    border: 1px solid rgba(182, 182, 182, 0.973);
+    height: 100px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.colors_iphone{
+    display: flex;
+    flex-wrap: wrap;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 3px;
+    border-radius: 100px;
+}
+.box_color:hover{
+    border: 1px solid rgba(97, 97, 97, 0.973);
+}
